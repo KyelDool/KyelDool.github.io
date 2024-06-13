@@ -6,14 +6,17 @@
     <script src="index.js"></script>
     <link rel="icon" type="image/x-icon" href="img/kd.ico">
     <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
     <title>Kyle Doll</title>
   </head>
   <body>
-    <main>
+    <header>
       <div id="title-container">
         <h1 class="grad"> Welcome to my webpage!</h1>
         <img src="img/logo.png" alt="logo" id="logo">
       </div>
+    </header>
+    <main>
       <div id="nav-bar">
         <button id="about" disabled>About</button>
         <button id="education">Relevent Coursework</button>
@@ -47,7 +50,218 @@
       </div>
   
       <div id="education-container" class="hidden">
-  
+        <div class="course">
+          <h2>
+            Circuit Theory
+          </h2>
+          <div class="course-info">
+            <p>
+              <b>Course Code:</b> EE233
+            </p>
+            <p>
+              <b>Taken:</b> Autumn 2023
+            </p>
+          </div>
+          <p>
+            <b>Topics Covered:</b> Phasors, operational amplifiers, frequency response, two port network theory.
+          </p>
+        </div>
+
+        <div class="course">
+          <h2>
+            Signals, Sytems, and Data I
+          </h2>
+          <div class="course-info">
+            <p>
+              <b>Course Code:</b> EE242
+            </p>
+            <p>
+              <b>Taken:</b> Spring 2023
+            </p>
+          </div>
+          <p>
+            <b>Topics Covered:</b> Signal processing on continuous and discrete signals, convolution, 
+            Fourier transforms.
+          </p>
+        </div>
+
+        <div class="course">
+          <h2>
+            Digital Circuits and Systems
+          </h2>
+          <div class="course-info">
+            <p>
+              <b>Course Code:</b> EE271
+            </p>
+            <p>
+              <b>Taken:</b> Winter 2023
+            </p>
+          </div>
+          <p>
+            <b>Topics Covered:</b> boolean algebra, state machines, RTL, programmable logic, ALU, handshaking
+        </div>
+
+        <div class="course">
+          <h2>
+            Devices and Circuits I
+          </h2>
+          <div class="course-info">
+            <p>
+              <b>Course Code:</b> EE331
+            </p>
+            <p>
+              <b>Taken:</b> Autumn 2023
+            </p>
+          </div>
+          <p>
+            <b>Topics Covered:</b> semiconductor diodes, NMOS, CMOS, digital circuit logic.
+          </p>
+        </div>
+
+        <div class="course">
+          <h2>
+            Signals, Systems, and Data II
+          </h2>
+          <div class="course-info">
+            <p>
+              <b>Course Code:</b> EE342
+            </p>
+            <p>
+              <b>Taken:</b> Spring 2023
+            </p>
+          </div>
+          <p>
+            <b>Topics Covered:</b> signal processing, Two-sided laplace transforms, Z-transforms, FFT,
+             Multi-rate signal processing, machine learning.
+          </p>
+        </div>
+
+        <div class="course">
+          <h2>
+            Design of Digital Circuits and Systems
+          </h2>
+          <div class="course-info">
+            <p>
+              <b>Course Code:</b> EE371
+            </p>
+            <p>
+              <b>Taken:</b> Spring 2023
+            </p>
+          </div>
+          <p>
+            Developed complex systems in RTL including: an audio filter, line drawing algorithm, and a drawing application.
+          </p>
+        </div>
+
+        <div class="course">
+          <h2>
+            Intro to Communication Networks
+          </h2>
+          <div class="course-info">
+            <p>
+              <b>Course Code:</b> EE419
+            </p>
+            <p>
+              <b>Taken:</b> Spring 2024
+            </p>
+          </div>
+          <p>
+            <b>Topics Covered:</b> Computer network architecture and protocols. Network routing,
+            congestion control, flow control, transport protocols, network security.
+          </p>
+        </div>
+
+        <div class="course">
+          <h2>
+            Control System Analysis I
+          </h2>
+          <div class="course-info">
+            <p>
+              <b>Course Code:</b> EE447
+            </p>
+            <p>
+              <b>Taken:</b> Spring 2023
+            </p>
+          </div>
+          <p>
+            <b>Topics Covered:</b> pole-zero analysis, root locus and frequency response,
+            control theory.
+          </p>
+          <p>
+            designed control system for "smart" miniature car.
+          </p>
+        </div>
+
+        <div class="course">
+          <h2>
+            Computer Architecture I
+          </h2>
+          <div class="course-info">
+            <p>
+              <b>Course Code:</b> EE469
+            </p>
+            <p>
+              <b>Taken:</b> Autumn 2023
+            </p>
+          </div>
+          <p>
+            Taught assembly and machine language for ARM devices. Developed 5-stage
+            pipelined CPU.
+          </p>
+        </div>
+
+        <div class="course">
+          <h2>
+            Introduction to Embedded Systems
+          </h2>
+          <div class="course-info">
+            <p>
+              <b>Course Code:</b> EE474
+            </p>
+            <p>
+              <b>Taken:</b> Winter 2024
+            </p>
+          </div>
+          <p>
+            <b>Topics Covered:</b> working with modern embedded microcontrollers and schedulers.
+          </p>
+        </div>
+
+        <div class="course">
+          <h2>
+            VLSI II
+          </h2>
+          <div class="course-info">
+            <p>
+              <b>Course Code:</b> EE477
+            </p>
+            <p>
+              <b>Taken:</b> Winter 2024
+            </p>
+          </div>
+          <p>
+            Hands on learning with industry standard  CAD tools including
+            Cadence (Virtuoso, DRC, LVS) and Avanti (Hspice).
+          </p>
+        </div>
+
+        <div class="course">
+          <h2>
+            Engineering Entrepeneurial Capstone
+          </h2>
+          <div class="course-info">
+            <p>
+              <b>Course Code:</b> EE497 / EE498
+            </p>
+            <p>
+              <b>Taken:</b> Winter 2024 - Spring 2024
+            </p>
+          </div>
+          <p>
+            Worked with University of Washington's QT3 Quantum computing lab to develop
+            an embedded subsystem for single atom detection.
+          </p>
+        </div>
       </div>
   
       <div id="projects-container" class="hidden">
@@ -57,7 +271,7 @@
       </div>
   
       <div id="links-container" class="hidden">
-        <a href="www.linkedin.com/in/kyle-doll">Linkedin</a>
+        <a href="https://www.linkedin.com/in/kyle-doll">Linkedin</a>
       </div>
       <footer>
         <p>

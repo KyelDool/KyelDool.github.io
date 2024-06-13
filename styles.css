@@ -1,10 +1,21 @@
-body, button {
+header, button {
     font-family: "Pacifico", cursive;
     font-weight: 400;
     font-style: normal;
     background-color: aliceblue;
     color: gray;
 }
+
+body {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings:
+      "slnt" 0;
+    background-color: aliceblue;
+    color: gray;
+  }
 
 .grad {
     padding: 50px;
@@ -46,7 +57,7 @@ div img {
     margin: 5%;
 }
 
-#about-container div {
+#about-container div, .course {
     margin-right: 5%;
     border: solid 4px gray;
     padding: 2%;
@@ -63,4 +74,14 @@ h2 {
 
 #link-container {
     display:flex;
+}
+
+.course-info {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.course {
+    margin-top: 3%;
 }
