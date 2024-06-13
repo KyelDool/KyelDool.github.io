@@ -9,29 +9,61 @@
     <title>Kyle Doll</title>
   </head>
   <body>
-    <div id="title-container">
-      <h1 class="grad"> Welcome to my webpage!</h1>
-      <img src="img/logo.png" alt="logo" id="logo">
-    </div>
-    <div id="nav-bar">
-      <button>About</button>
-      <button>Projects</button>
-      <button>Links</button>
-    </div>
-    
-    <div id="about-container">
-
-      <img src="img/kd.ico" alt="image of me">
-      <div>
-        <h2>About Me</h2>
-        <p> This is some place holder text.</p>
+    <main>
+      <div id="title-container">
+        <h1 class="grad"> Welcome to my webpage!</h1>
+        <img src="img/logo.png" alt="logo" id="logo">
       </div>
-    </div>
-    <div id="project-container">
-
-    </div>
-    <div id="link-container">
-
-    </div>
+      <div id="nav-bar">
+        <button id="about" disabled>About</button>
+        <button id="education">Relevent Coursework</button>
+        <button id="projects">Projects</button>
+        <button id="links">Links</button>
+      </div>
+      
+      <div id="about-container" class="visible">
+        <img src="img/cover.jpg" alt="image of me">
+        <div>
+          <h2>About Me</h2>
+          <p>
+            Kyle Doll is a 22-year old Electrical Engineer who has a passion for creation.
+            This page serves as a hub for links to all of his work.
+          </p>
+          <p> 
+            Kyle graduated from the University of Washington in June of 2024 with a Bachelor's of science in
+            Electrical Engineering with a concentration on Embedded Systems.
+          </p>
+          <p>
+            His Strengths Include:
+          </p>
+          <ul>
+            <li>HDL languages (Verilog / System Verilog)</li>
+            <li>Timing analysis and Debugging</li>
+            <li>Embedded schedulers such as FreeRTOS</li>
+            <li>Problem solving</li>
+            <li>Technical writing</li>
+          </ul>
+        </div>
+      </div>
+  
+      <div id="education-container" class="hidden">
+  
+      </div>
+  
+      <div id="projects-container" class="hidden">
+        <p>
+          More to come Soon!
+        </p>
+      </div>
+  
+      <div id="links-container" class="hidden">
+        <a href="www.linkedin.com/in/kyle-doll">Linkedin</a>
+      </div>
+      <footer>
+        <p>
+          Page last updated: 6/12/2024
+        </p>
+      </footer>
+    </main>
   </body>
 </html>
