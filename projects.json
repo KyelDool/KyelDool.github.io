@@ -1,0 +1,22 @@
+[
+    {
+        "projectTitle":"555 Name Badge",
+        "img1":"555schematic.jpg",
+        "alt1":"schematic for the 555 badge",
+        "img2":"555badge.gif",
+        "alt2":"gif of the 555 badge working",
+        "description":"My first goal after graduating college was to buff up all the skills that I felt I had missed out on during college. The first being PCB design.
+            I felt that learning some PCB design would not only be a great skill to have while looking for a career, but would also widen my options when creating
+            future projects. For my first PCB I followed an amazing tutorial on using kiCAD; A free to use CAD software. For this project I designed a PCB board that
+             functions as a name tag. The board has a small white space to place your name and has flashing LEDs controlled by a 555 timer for flair. After creating the design,
+              I ordered the board from oshpark and ordered all of my parts from, digikey. After all my parts came I soldered the PCB. Below is a gif of the final product.",
+        "reference":"https://www.youtube.com/watch?v=vaCVh2SAZY4&list=PL3bNyZYHcRSUhUXUt51W6nKvxx2ORvUQB&index=1"
+    },
+    {
+        "projectTitle":"555 Name Badge",
+        "img1":"NA",
+        "img2":"NA",
+        "description":"NA",
+        "reference":"NA"
+    }
+]

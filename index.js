@@ -1,4 +1,5 @@
 'use strict';
+
 (function() {
     window.addEventListener('load', init);
     function init() {
@@ -36,6 +37,34 @@
             buttons[i].disabled = false;
         }
       }
+  }
+
+  function loadProjects() {
+    //let projects = fs.readFile('projects.json', 'utf8');
+    let projectContainer = id("projects-container");
+    for (let i = 0; i < projects.length; i++) {
+      //generate the HTML for the project
+      let container = gen("div");
+      let title = gen("h3");
+      title.textContent = projects[i].projectTitle;
+      let image1 = gen("img");
+      image1.src = projects[i].img1;
+      image1.alt = projects[i].alt1;
+      let image2 = gen("img");
+      image2.src = projects[i].img2;
+      image2.alt = projects[i].alt2;
+      let description = gen("p");
+      description.textContent = projects[i].description;
+      let extLink = gen("a")
+      extLink.href = projects[i].reference;
+      container.appendChild(title);
+      container.appendChild(image1);
+      container.appendChild(description);
+      container.appendChild(extLink);
+      container.appendChild(image2);
+      // put this container in the main container
+      projectContainer.appendChild("container");
+    }
   }
 
   /* ------------------------------ Helper Functions  ------------------------------ */
